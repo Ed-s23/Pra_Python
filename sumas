@@ -1,0 +1,24 @@
+
+
+def main():
+    print("Programa de Suma y Multiplicación")
+    print("-------------------------------")
+
+    # Solicitar número al usuario
+    num = float(input("Ingrese un número: "))
+
+    # Valor fijo para la suma y multiplicación
+    valor_fijo = 5
+
+    # Realizar suma
+    suma = num + valor_fijo
+    print(f"La suma de {num} + {valor_fijo} es: {suma}")
+
+    # Realizar multiplicación
+    multiplicacion = num * valor_fijo
+    print(f"La multiplicación de {num} * {valor_fijo} es: {multiplicacion}")
+
+if __name__ == "__main__":
+    main()
+
+
