@@ -19,7 +19,7 @@ def sumar_matrices(m1, m2):
 def restar_matrices(m1, m2):
     return [[m1[i][j] - m2[i][j] for j in range(len(m1[0]))] for i in range(len(m1))]
 
-# Función para multiplicar matrices
+
 def multiplicar_matrices(m1, m2):
     resultado = [[0 for _ in range(len(m2[0]))] for _ in range(len(m1))]
     for i in range(len(m1)):
