@@ -10,7 +10,7 @@ def main():
     # Valor fijo para la suma y multiplicación
     valor_fijo = 5
 
-    # Realizar suma
+    # Realizar suma de valores 
     suma = num + valor_fijo
     print(f"La suma de {num} + {valor_fijo} es: {suma}")
 
